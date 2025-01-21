@@ -1,0 +1,143 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; 
+  }
+  
+  .signup-container {
+    position: relative;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+
+  .logo img{
+    max-width: 300px; 
+    height: auto; 
+    margin-bottom: 1rem; 
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+
+  .signup-form label {
+    display: block;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #333;
+    margin: 0.5rem 0 0.25rem;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .signup-form input:focus {
+    outline: none;
+    border-color: #6c5ce7;
+    box-shadow: 0 0 4px rgba(108, 92, 231, 0.3);
+  }
+  
+
+  .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .checkbox input {
+    width: auto;
+  }
+  
+
+  .signup-btn {
+    background-color: #6c5ce7;
+    color: #fff;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-btn:hover {
+    background-color: #5a4dbe;
+  }
+  
+  .google-btn {
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 0.8rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .google-btn:hover {
+    background-color: #ebebeb;
+  }
+  
+
+  .divider {
+    margin: 1rem 0;
+    color: #888;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ddd;
+    margin: 0 10px;
+  }
+  
+
+  .signin-link {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .signin-link a {
+    color: #6c5ce7;
+    text-decoration: none;
+  }
+  
+  .signin-link a:hover {
+    text-decoration: underline;
+  }
+  
